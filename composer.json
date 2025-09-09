@@ -1,0 +1,27 @@
+{
+    "name": "palmgarmer/practice-laravel-backend",
+    "type": "project",
+    "description": "A Laravel practice project with CRUD, MVC structure, and Swagger UI",
+    "keywords": ["laravel", "crud", "mvc", "swagger", "api"],
+    "license": "MIT",
+    "require": {
+        "php": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Database\\Factories\\": "database/factories/",
+            "Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "scripts": {
+        "serve": "php -S localhost:8000 -t public"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
